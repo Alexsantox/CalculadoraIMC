@@ -1,0 +1,84 @@
+body {
+    background-color: grey;
+} 
+
+main {
+    display: flex; /*centralizar*/
+    width: 100vw;
+    height: 100vh; /*Definindo altura*/
+    justify-content: center; /*Centralizar itens*/
+    align-items: center; /*Posicionar tudo ao centro da tela*/
+}
+
+.container {
+    display: flex;
+    flex-direction: column; /*Organizar itens em coluna*/
+    background: rgb(255,198,0); /*Colocando cor nos indicadores*/
+    width: 400px; /*Aumnetando a largura da calculadora*/
+    height: 600px; /*Definindo a altura da calculadora*/
+    align-items: center; /*Alinhar indicadores, caixa e botão ao centro*/
+    justify-content: space-evenly; /*Centralizando tudo ao centro*/
+    border-radius: 20px; /*/deixando borda da calculadora arredondadas*/
+    box-shadow: 0 0 10px black; /*Sombra na borda da calculadora*/
+    
+}
+
+.title { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 50px; /*Definindo altura do título*/
+    font: bold 2.5rem serif; /*Definindo fonte do título*/
+    border-bottom: solid 5px black; /*Adicionando linha em baixo do título*/
+    margin-bottom: 20px; /*Definindo altura da linha e título*/
+}
+
+.input {
+    display: flex;
+    width: 300px; /*Definindo posição para a esquerda*/
+    height: 50px; /*Definindo tamanho das caixas*/
+    justify-content: space-between; /*Posição das caixas para a esquerda*/
+    align-items: center; /*Alinhando tudo ao centro*/
+}
+
+.input input {
+    width: 200px;
+    height: 50px;
+    border-radius: 5px; /*arredonando caixas*/
+    border: none; /*Tirando linha de contorno em volta das caixas*/
+    outline: 0;
+    font: bold 1.5rem serif;
+    text-align: center;
+}
+
+.input label {
+    font: bold 1.5rem serif;
+}
+
+button {
+    width: 300px; /* Definindo largura do botão*/
+    height: 40px; /*Definindo altura do botão*/
+    font: bold 1.2rem serif; /*Definindo fonte do botão*/
+    background: #000; /*Cor do botão*/
+    color: rgb(255,198,0); /*Definindo cor da fonte*/
+    outline: none;
+    border-radius: 5px; /*Arredondando borda do botão*/
+    cursor: pointer;
+}
+
+.result { 
+    display: flex;
+    margin-top: 20px;
+    align-items: center;
+    width: 300px;
+    height: 150px;
+    border-radius: 5px;
+    font: italic 1.5rem serif;
+    box-shadow: 0px 10px black; /*Criando caixa preta para mostrar o resultado*/
+    background: #000;
+    color: rgb(255,198,0);
+    padding: 20px;
+    box-sizing: border-box;
+    user-select: none;
+}
