@@ -2,7 +2,7 @@
 
 ### Calculadora de IMC (Índice de massa corporal)
 
-◻️ Nessa calculadora, você adiciona seu nome.
+◻️ Na primeira opção você adiciona seu nome.
 
 ◻️ Na segunda opção você adiciona a sua altura.
 
